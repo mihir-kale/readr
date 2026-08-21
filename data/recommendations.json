@@ -9,16 +9,16 @@
   {
     "mediaType": "article",
     "title": "Slow Boring",
-    "url": "https://www.slowboring.com/",
-    "blurb": "Matt Yglesias' newsletter on policy, housing, and the boring case for a country that builds more stuff.",
-    "source": "Slow Boring — Matt Yglesias"
+    "url": "https://www.slowboring.com/p/thousands-of-years-of-indoor-air",
+    "blurb": "Matt Yglesias' latest: humanity has breathed smoky indoor air for thousands of years — the story of how we finally started fixing it.",
+    "source": "Thousands of years of indoor air pollution"
   },
   {
     "mediaType": "podcast",
     "title": "Do Politics Better",
-    "url": "",
-    "blurb": "Brian Lewis and Skye David model what cross-partisan conversation looks like when both sides argue in good faith.",
-    "source": "Do Politics Better — Brian Lewis & Skye David"
+    "url": "https://www.podbean.com/media/share/pb-6jw23-1b35e24",
+    "blurb": "Lobbyists Brian Lewis and Skye David on NC politics — this week: House Whip Terry Brown on what lobbyists get wrong about House Democrats.",
+    "source": "House Democratic Whip Terry Brown Has a Message for Lobbyists"
   },
   {
     "mediaType": "movie",
@@ -44,16 +44,16 @@
   {
     "mediaType": "article",
     "title": "Silver Bulletin",
-    "url": "https://www.natesilver.net/",
-    "blurb": "Nate Silver on polls, probability, and prediction — with refreshingly little patience for motivated reasoning.",
-    "source": "Silver Bulletin — Nate Silver"
+    "url": "https://www.natesilver.net/p/nate-silver-2026-midterm-election-polls-model",
+    "blurb": "Nate Silver's 2026 midterm forecast is live: polls, fundamentals, and probabilities for a Congress worth watching.",
+    "source": "The 2026 midterm forecast"
   },
   {
     "mediaType": "podcast",
     "title": "Conversations with Tyler",
-    "url": "https://www.conversationswithtyler.com/",
-    "blurb": "Tyler Cowen interviews scholars, founders, and artists with questions no one else thinks to ask.",
-    "source": "Conversations with Tyler — Mercatus Center"
+    "url": "https://conversationswithtyler.com/episodes/daron-acemoglu-2/",
+    "blurb": "Tyler Cowen's conversations with scholars, founders, and artists. Latest: Acemoglu asks whether liberalism's crisis was an inside job — and implicates the educated elite.",
+    "source": "Daron Acemoglu on Liberalism, Automation, and the Educated Elite (Ep. 286)"
   },
   {
     "mediaType": "movie",
@@ -86,9 +86,9 @@
   {
     "mediaType": "podcast",
     "title": "EconTalk",
-    "url": "https://www.econtalk.org/",
-    "blurb": "Russ Roberts' weekly conversations make economics humane, curious, and genuinely fun for an hour at a time.",
-    "source": "EconTalk — Russ Roberts"
+    "url": "https://www.econtalk.org/the-hidden-cause-of-the-industrial-revolution-with-ben-southwood/",
+    "blurb": "Russ Roberts' weekly conversations. Latest: Ben Southwood argues the Industrial Revolution really began in 1688, when England's Glorious Revolution smashed the vetocracy holding growth back.",
+    "source": "The Hidden Cause of the Industrial Revolution (with Ben Southwood)"
   },
   {
     "mediaType": "book",
@@ -100,8 +100,8 @@
   {
     "mediaType": "podcast",
     "title": "Free Thoughts",
-    "url": "https://www.cato.org/podcasts/free-thoughts",
-    "blurb": "Trevor Burrus and guests challenge orthodoxy across law, history, and political philosophy every week.",
+    "url": "https://www.libertarianism.org/podcasts/free-thoughts",
+    "blurb": "Trevor Burrus and guests challenged orthodoxy across law, history, and political philosophy for a decade. The show signed off in 2023 — all 476 episodes remain worth your queue.",
     "source": "Free Thoughts — Trevor Burrus"
   },
   {
@@ -114,9 +114,9 @@
   {
     "mediaType": "podcast",
     "title": "The Fifth Column",
-    "url": "https://wethefifth.com/",
-    "blurb": "Kmele, Matt, Michael, and David: irreverent, anti-war, and allergic to tribalism.",
-    "source": "The Fifth Column — wethefifth.com"
+    "url": "https://www.wethefifth.com/p/the-politics-of-pretending-episode",
+    "blurb": "Kmele, Matt, and Michael: irreverent, anti-war, allergic to tribalism. Latest: Adderall shortages, the Tucker–Hunter interview nobody watched, and very difficult words.",
+    "source": "The Politics of Pretending (Episode #570)"
   },
   {
     "mediaType": "book",
@@ -128,23 +128,30 @@
   {
     "mediaType": "podcast",
     "title": "Ruthless",
-    "url": "",
-    "blurb": "Campaign-trail veterans with sharp instincts for political strategy and an ear for the absurd.",
-    "source": "Ruthless Podcast"
+    "url": "https://open.spotify.com/episode/3rDaoK8iYmCPab8UOiyZxy",
+    "blurb": "Campaign-trail veterans with sharp instincts and an ear for the absurd. Latest: AOC's code-switching tour, the Maine Senate free-for-all, and Sen. Bill Hagerty on the midterms.",
+    "source": "Dems' Senate Freakshow: AOC Stumbles, Maine Chaos"
   },
   {
     "mediaType": "book",
-    "title": "Atlas Shrugged + The Fountainhead",
+    "title": "Atlas Shrugged",
     "url": "https://en.wikipedia.org/wiki/Atlas_Shrugged",
-    "blurb": "Rand's twin epics of individual ambition. Read one, argue about it forever.",
+    "blurb": "Rand's epic of the strike of the producers. Read it — then argue about it forever.",
+    "source": "Ayn Rand"
+  },
+  {
+    "mediaType": "book",
+    "title": "The Fountainhead",
+    "url": "https://en.wikipedia.org/wiki/The_Fountainhead",
+    "blurb": "Rand's novel of architecture and integrity: Howard Roark builds anyway, and individualism gets its most stubborn hero.",
     "source": "Ayn Rand"
   },
   {
     "mediaType": "podcast",
     "title": "Tying It Together",
-    "url": "",
-    "blurb": "Tim Boyum unpacks North Carolina politics with the lawmakers and insiders who actually move the needle.",
-    "source": "Tying It Together — Tim Boyum"
+    "url": "https://tyingittogether.libsyn.com/inside-the-college-sports-chaos",
+    "blurb": "Tim Boyum unpacks NC politics with the lawmakers and insiders who move the needle. Latest: Greg Barnes on the upheaval remaking college sports.",
+    "source": "Inside the college sports chaos"
   },
   {
     "mediaType": "book",
@@ -156,8 +163,8 @@
   {
     "mediaType": "podcast",
     "title": "The Intelligence",
-    "url": "",
-    "blurb": "The Economist's daily show: twenty minutes to understand why the world's news actually matters.",
+    "url": "https://www.economist.com/podcasts",
+    "blurb": "The Economist's daily show: twenty minutes every weekday to understand why the world's news actually matters. Always current — that's the point.",
     "source": "The Intelligence — The Economist"
   },
   {
@@ -198,9 +205,9 @@
   {
     "mediaType": "podcast",
     "title": "Shawn Ryan Show",
-    "url": "",
-    "blurb": "Long-form conversations with incredible guests — Navy SEALs, scientists, spies — unscripted and unhurried.",
-    "source": "Shawn Ryan Show"
+    "url": "https://shawnryanshow.com/blogs/the-shawn-ryan-show/srs-332-seal-team-6-operator-on-crashing-a-black-hawk-into-bin-ladens-backyard",
+    "blurb": "Long-form, unscripted, unhurried. Latest: DEVGRU operator Alex West — 15 combat deployments, Neptune Spear assault team leader — on war, trauma, and recovery.",
+    "source": "#332 Alex West: SEAL Team 6 Operator on Crashing a Black Hawk Into Bin Laden's Backyard"
   },
   {
     "mediaType": "book",
@@ -226,9 +233,9 @@
   {
     "mediaType": "podcast",
     "title": "The Debrief",
-    "url": "",
-    "blurb": "CJ breaks down the week's news with the context other shows skip.",
-    "source": "The Debrief — CJ"
+    "url": "https://www.carolinajournal.com/the-debrief/",
+    "blurb": "Every Thursday, Donna King and Mitch Kokai debrief the week in North Carolina news — including a recent special on the Battle of Moores Creek Bridge film.",
+    "source": "The Debrief — Carolina Journal"
   },
   {
     "mediaType": "book",
