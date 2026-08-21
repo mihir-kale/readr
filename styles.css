@@ -37,7 +37,24 @@ a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-o
 
 .container{max-width:1180px;margin:0 auto;padding:0 clamp(1.1rem,4vw,2.5rem)}
 
-.masthead{padding:clamp(2.4rem,6vw,4.2rem) 0 0;text-align:center}
+.masthead{position:relative;padding:clamp(2.4rem,6vw,4.2rem) 0 0;text-align:center}
+.support-link{
+  position:absolute;
+  top:1.1rem;
+  right:clamp(1.1rem,4vw,2.5rem);
+  font-family:var(--sans);
+  font-size:.66rem;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:var(--ink-soft);
+  text-decoration:underline;
+  text-decoration-color:var(--rule);
+  text-underline-offset:3px;
+}
+.support-link:hover{
+  color:var(--accent);
+  text-decoration-color:var(--accent);
+}
 .overline{
   margin:0 0 1.1rem;
   font-family:var(--sans);
