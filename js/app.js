@@ -118,12 +118,13 @@ function render({ animate = true } = {}) {
       activeFilter === "all"
         ? recommendations
         : recommendations.filter((rec) => rec.mediaType === activeFilter);
+    const ordered = [...list.filter((rec) => !rec.sink), ...list.filter((rec) => rec.sink)];
     grid.replaceChildren();
-    if (!list.length) {
+    if (!ordered.length) {
       grid.append(el("p", "notice", "Nothing here yet."));
       return;
     }
-    list.forEach((rec, i) => {
+    ordered.forEach((rec, i) => {
       const visual = rec.mediaType === "book" || rec.mediaType === "movie";
       const tile = visual ? buildVisualTile(rec) : buildTextTile(rec);
       tile.style.setProperty("--stagger", Math.min(i, 10));

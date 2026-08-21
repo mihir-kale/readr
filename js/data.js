@@ -10,7 +10,8 @@ export function normalizeRecommendation(raw) {
     title: clean(raw && raw.title),
     url: clean(raw && raw.url),
     blurb: clean(raw && raw.blurb),
-    source: clean(raw && raw.source)
+    source: clean(raw && raw.source),
+    sink: Boolean(raw && raw.sink)
   };
   if (!MEDIA_TYPES.includes(rec.mediaType)) {
     throw new Error(`unknown media type "${raw.mediaType}"`);

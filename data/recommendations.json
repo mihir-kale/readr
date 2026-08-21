@@ -4,7 +4,8 @@
     "title": "Why We Disagree About Inequality",
     "url": "",
     "blurb": "Redstone shows how dueling definitions of fairness keep both sides talking past each other — and how to finally have the conversation.",
-    "source": "Ilana Redstone"
+    "source": "Ilana Redstone",
+    "sink": true
   },
   {
     "mediaType": "article",
@@ -25,14 +26,16 @@
     "title": "The Man in the High Castle",
     "url": "https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle_(TV_series)",
     "blurb": "The Axis won. A prestige series that makes authoritarianism feel mundane — and resistance feel costly.",
-    "source": ""
+    "source": "",
+    "sink": true
   },
   {
     "mediaType": "movie",
     "title": "The Battle of Moores Creek Bridge",
     "url": "",
     "blurb": "A Locke Foundation production on the 1776 Patriot victory that helped push North Carolina out of the Empire.",
-    "source": "A Locke Production"
+    "source": "A Locke Production",
+    "sink": true
   },
   {
     "mediaType": "book",
@@ -40,6 +43,13 @@
     "url": "https://en.wikipedia.org/wiki/Loonshots",
     "blurb": "Bahcall on why sane teams dismiss the crazy ideas that change everything — and how to nurture them instead.",
     "source": "Safi Bahcall"
+  },
+  {
+    "mediaType": "book",
+    "title": "Project Hail Mary",
+    "url": "https://en.wikipedia.org/wiki/Project_Hail_Mary",
+    "blurb": "Weir's lone-astronaut thriller: a junior-high science teacher wakes up light-years from home with amnesia and humanity's fate on his shoulders. Problem-solving sci-fi at its most fun.",
+    "source": "Andy Weir"
   },
   {
     "mediaType": "article",
@@ -67,7 +77,8 @@
     "title": "A Letter to the King",
     "url": "",
     "blurb": "A Locke Foundation production tracing North Carolina's revolutionary story for the classroom and the couch.",
-    "source": "A Locke Production"
+    "source": "A Locke Production",
+    "sink": true
   },
   {
     "mediaType": "book",
@@ -189,6 +200,13 @@
     "source": "David McCullough"
   },
   {
+    "mediaType": "book",
+    "title": "Young Washington",
+    "url": "",
+    "blurb": "Stark on the wilderness years: how a temperamental young surveyor who accidentally ignited a war grew into the man who could lead a nation.",
+    "source": "Peter Stark"
+  },
+  {
     "mediaType": "article",
     "title": "Agriculture in North Carolina",
     "url": "",
@@ -221,7 +239,8 @@
     "title": "Revolutionary Roads",
     "url": "",
     "blurb": "A JLF production following North Carolina's roads, sites, and stories of the American Revolution.",
-    "source": "JLF"
+    "source": "JLF",
+    "sink": true
   },
   {
     "mediaType": "book",
@@ -270,6 +289,7 @@
     "title": "The Fatal Conceit",
     "url": "https://en.wikipedia.org/wiki/The_Fatal_Conceit",
     "blurb": "Hayek's final warning: the hubris of designing society against the knowledge embedded in tradition and markets.",
-    "source": "F.A. Hayek"
+    "source": "F.A. Hayek",
+    "sink": true
   }
 ]
