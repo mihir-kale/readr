@@ -126,7 +126,6 @@ function render({ animate = true } = {}) {
     list.forEach((rec, i) => {
       const visual = rec.mediaType === "book" || rec.mediaType === "movie";
       const tile = visual ? buildVisualTile(rec) : buildTextTile(rec);
-      tile.classList.add(`w${(i % 4) + 1}`, `s${i % 3}`);
       tile.style.setProperty("--stagger", Math.min(i, 10));
       grid.append(tile);
       if (visual) hydrateCover(tile, rec);
