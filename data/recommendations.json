@@ -1,93 +1,268 @@
 [
   {
     "mediaType": "book",
-    "title": "The Power Broker",
-    "url": "https://en.wikipedia.org/wiki/The_Power_Broker",
-    "blurb": "Caro's 1,300-page life of Robert Moses is the definitive anatomy of power: how it is accumulated, exercised, and hidden in plain sight. Long, but never long enough.",
-    "source": "Robert A. Caro"
+    "title": "Why We Disagree About Inequality",
+    "url": "",
+    "blurb": "Redstone shows how dueling definitions of fairness keep both sides talking past each other — and how to finally have the conversation.",
+    "source": "Ilana Redstone"
+  },
+  {
+    "mediaType": "article",
+    "title": "Slow Boring",
+    "url": "https://www.slowboring.com/",
+    "blurb": "Matt Yglesias' newsletter on policy, housing, and the boring case for a country that builds more stuff.",
+    "source": "Slow Boring — Matt Yglesias"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "Do Politics Better",
+    "url": "",
+    "blurb": "Brian Lewis and Skye David model what cross-partisan conversation looks like when both sides argue in good faith.",
+    "source": "Do Politics Better — Brian Lewis & Skye David"
+  },
+  {
+    "mediaType": "movie",
+    "title": "The Man in the High Castle",
+    "url": "https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle_(TV_series)",
+    "blurb": "The Axis won. A prestige series that makes authoritarianism feel mundane — and resistance feel costly.",
+    "source": ""
+  },
+  {
+    "mediaType": "movie",
+    "title": "The Battle of Moores Creek Bridge",
+    "url": "",
+    "blurb": "A Locke Foundation production on the 1776 Patriot victory that helped push North Carolina out of the Empire.",
+    "source": "A Locke Production"
+  },
+  {
+    "mediaType": "book",
+    "title": "Loonshots",
+    "url": "https://en.wikipedia.org/wiki/Loonshots",
+    "blurb": "Bahcall on why sane teams dismiss the crazy ideas that change everything — and how to nurture them instead.",
+    "source": "Safi Bahcall"
+  },
+  {
+    "mediaType": "article",
+    "title": "Silver Bulletin",
+    "url": "https://www.natesilver.net/",
+    "blurb": "Nate Silver on polls, probability, and prediction — with refreshingly little patience for motivated reasoning.",
+    "source": "Silver Bulletin — Nate Silver"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "Conversations with Tyler",
+    "url": "https://www.conversationswithtyler.com/",
+    "blurb": "Tyler Cowen interviews scholars, founders, and artists with questions no one else thinks to ask.",
+    "source": "Conversations with Tyler — Mercatus Center"
+  },
+  {
+    "mediaType": "movie",
+    "title": "The West Wing",
+    "url": "https://en.wikipedia.org/wiki/The_West_Wing_(TV_series)",
+    "blurb": "Sorkin's walk-and-talks remain the most flattering — and most instructive — portrait of public service ever filmed.",
+    "source": ""
+  },
+  {
+    "mediaType": "movie",
+    "title": "A Letter to the King",
+    "url": "",
+    "blurb": "A Locke Foundation production tracing North Carolina's revolutionary story for the classroom and the couch.",
+    "source": "A Locke Production"
+  },
+  {
+    "mediaType": "book",
+    "title": "The Federalist Papers",
+    "url": "https://en.wikipedia.org/wiki/The_Federalist_Papers",
+    "blurb": "Hamilton, Madison, and Jay sell the Constitution in real time. Copies are in the lobby — take one.",
+    "source": "Hamilton, Madison & Jay"
+  },
+  {
+    "mediaType": "article",
+    "title": "John Locke Foundation",
+    "url": "https://www.johnlocke.org/",
+    "blurb": "Daily research and commentary on North Carolina state and local policy from our own analysts.",
+    "source": "John Locke Foundation"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "EconTalk",
+    "url": "https://www.econtalk.org/",
+    "blurb": "Russ Roberts' weekly conversations make economics humane, curious, and genuinely fun for an hour at a time.",
+    "source": "EconTalk — Russ Roberts"
+  },
+  {
+    "mediaType": "book",
+    "title": "Diplomacy",
+    "url": "https://en.wikipedia.org/wiki/Diplomacy_(Kissinger_book)",
+    "blurb": "Kissinger's sweeping tour of statecraft from Richelieu to the Cold War. Heavy, but worth every page.",
+    "source": "Henry Kissinger"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "Free Thoughts",
+    "url": "https://www.cato.org/podcasts/free-thoughts",
+    "blurb": "Trevor Burrus and guests challenge orthodoxy across law, history, and political philosophy every week.",
+    "source": "Free Thoughts — Trevor Burrus"
+  },
+  {
+    "mediaType": "book",
+    "title": "The Leadership Crisis and the Free Market Cure",
+    "url": "",
+    "blurb": "John Allison argues that principled leadership, not regulation, is what keeps free enterprise legitimate.",
+    "source": "John Allison"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "The Fifth Column",
+    "url": "https://wethefifth.com/",
+    "blurb": "Kmele, Matt, Michael, and David: irreverent, anti-war, and allergic to tribalism.",
+    "source": "The Fifth Column — wethefifth.com"
+  },
+  {
+    "mediaType": "book",
+    "title": "The Theory of Money and Credit",
+    "url": "https://en.wikipedia.org/wiki/The_Theory_of_Money_and_Credit",
+    "blurb": "Mises integrates money into economic theory and predicts the perils of inflation a century early.",
+    "source": "Ludwig von Mises"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "Ruthless",
+    "url": "",
+    "blurb": "Campaign-trail veterans with sharp instincts for political strategy and an ear for the absurd.",
+    "source": "Ruthless Podcast"
+  },
+  {
+    "mediaType": "book",
+    "title": "Atlas Shrugged + The Fountainhead",
+    "url": "https://en.wikipedia.org/wiki/Atlas_Shrugged",
+    "blurb": "Rand's twin epics of individual ambition. Read one, argue about it forever.",
+    "source": "Ayn Rand"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "Tying It Together",
+    "url": "",
+    "blurb": "Tim Boyum unpacks North Carolina politics with the lawmakers and insiders who actually move the needle.",
+    "source": "Tying It Together — Tim Boyum"
+  },
+  {
+    "mediaType": "book",
+    "title": "Killing for Coal",
+    "url": "https://en.wikipedia.org/wiki/Killing_for_Coal",
+    "blurb": "Thomas Andrews traces the Ludlow Massacre through energy, labor, and land — environmental history at its best.",
+    "source": "Thomas Andrews"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "The Intelligence",
+    "url": "",
+    "blurb": "The Economist's daily show: twenty minutes to understand why the world's news actually matters.",
+    "source": "The Intelligence — The Economist"
+  },
+  {
+    "mediaType": "book",
+    "title": "The Paradox of Tar Heel Politics",
+    "url": "",
+    "blurb": "Rob Christensen explains two centuries of North Carolina's improbable blend of progressivism and conservatism.",
+    "source": "Rob Christensen"
+  },
+  {
+    "mediaType": "article",
+    "title": "The Answer Is Transaction Costs",
+    "url": "",
+    "blurb": "Half of all institutional puzzles dissolve once you ask who bears the cost of doing business with whom.",
+    "source": "The Answer Is Transaction Costs"
+  },
+  {
+    "mediaType": "book",
+    "title": "1776",
+    "url": "https://en.wikipedia.org/wiki/1776_(book)",
+    "blurb": "McCullough renders the Revolution's worst year — and Washington's stubbornness — as gripping narrative history.",
+    "source": "David McCullough"
+  },
+  {
+    "mediaType": "article",
+    "title": "Agriculture in North Carolina",
+    "url": "",
+    "blurb": "From sweet potatoes to hogs to biotech: a look at the industry that still shapes our economy and our land.",
+    "source": "Agriculture in North Carolina"
+  },
+  {
+    "mediaType": "book",
+    "title": "1620",
+    "url": "",
+    "blurb": "Peter Wood challenges the 1619 framing with a counter-history of America's founding year.",
+    "source": "Peter Wood"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "Shawn Ryan Show",
+    "url": "",
+    "blurb": "Long-form conversations with incredible guests — Navy SEALs, scientists, spies — unscripted and unhurried.",
+    "source": "Shawn Ryan Show"
+  },
+  {
+    "mediaType": "book",
+    "title": "The Science of Success",
+    "url": "https://en.wikipedia.org/wiki/The_Science_of_Success",
+    "blurb": "Charles Koch on Market-Based Management: the ideas that built one of the world's largest private companies.",
+    "source": "Charles Koch"
+  },
+  {
+    "mediaType": "movie",
+    "title": "Revolutionary Roads",
+    "url": "",
+    "blurb": "A JLF production following North Carolina's roads, sites, and stories of the American Revolution.",
+    "source": "JLF"
+  },
+  {
+    "mediaType": "book",
+    "title": "Good Profit",
+    "url": "https://en.wikipedia.org/wiki/Good_Profit",
+    "blurb": "Koch distinguishes profit earned by serving customers from profit extracted by gaming the system.",
+    "source": "Charles Koch"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "The Debrief",
+    "url": "",
+    "blurb": "CJ breaks down the week's news with the context other shows skip.",
+    "source": "The Debrief — CJ"
+  },
+  {
+    "mediaType": "book",
+    "title": "The Mystery of Capital",
+    "url": "https://en.wikipedia.org/wiki/The_Mystery_of_Capital",
+    "blurb": "De Soto shows why property titles, not assets alone, unlock prosperity in developing economies.",
+    "source": "Hernando de Soto"
   },
   {
     "mediaType": "article",
     "title": "I, Pencil",
-    "url": "https://fee.org/resources/i-pencil/",
-    "blurb": "A pencil explains its own creation and dismantles the idea that anyone is in charge. The shortest, sharpest case for spontaneous order ever written.",
-    "source": "Foundation for Economic Education"
-  },
-  {
-    "mediaType": "movie",
-    "title": "12 Angry Men",
-    "url": "https://en.wikipedia.org/wiki/12_Angry_Men",
-    "blurb": "Twelve strangers, one sweltering room, and a single dissenter who refuses to let certainty win. Still the best film ever made about the discipline of doubt.",
-    "source": "Sidney Lumet"
-  },
-  {
-    "mediaType": "podcast",
-    "title": "Aspiration and the Examined Life",
-    "url": "https://www.conversationswithtyler.com/",
-    "blurb": "Agnes Callard argues that the biggest decisions in life cannot be justified in advance — aspiration means becoming the person who can see the reasons only afterward. Bracing and oddly comforting.",
-    "source": "Conversations with Tyler"
+    "url": "https://en.wikipedia.org/wiki/I,_Pencil",
+    "blurb": "A CLASSIC and SUPER SHORT essay: a pencil explains its own creation and dismantles central planning in four pages.",
+    "source": "I, Pencil — Leonard Read"
   },
   {
     "mediaType": "book",
-    "title": "Democracy in America",
-    "url": "https://en.wikipedia.org/wiki/Democracy_in_America",
-    "blurb": "Sent to study American prisons, Tocqueville instead diagnosed a young democracy with uncanny precision. Nearly two centuries later, almost every page feels like this morning's news.",
-    "source": "Alexis de Tocqueville"
-  },
-  {
-    "mediaType": "article",
-    "title": "Politics and the English Language",
-    "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
-    "blurb": "Orwell shows how mushy language and mushy thinking prop each other up, then hands you the tools to resist both. The rare essay on style you can read for pleasure.",
-    "source": "Horizon"
-  },
-  {
-    "mediaType": "movie",
-    "title": "Spotlight",
-    "url": "https://en.wikipedia.org/wiki/Spotlight_(film)",
-    "blurb": "A newspaper procedural with the pulse of a thriller — and a quiet lesson that institutions change only when someone keeps asking uncomfortable questions.",
-    "source": "Tom McCarthy"
+    "title": "Second Treatise of Government",
+    "url": "https://en.wikipedia.org/wiki/Two_Treatises_of_Government",
+    "blurb": "Locke's case for natural rights, consent, and the right of revolution — the DNA of the American founding.",
+    "source": "John Locke"
   },
   {
     "mediaType": "book",
-    "title": "Thinking, Fast and Slow",
-    "url": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow",
-    "blurb": "A career's worth of findings about judgment, bias, and self-deception in one humane, humbling book. You will catch yourself in the act by chapter three.",
-    "source": "Daniel Kahneman"
-  },
-  {
-    "mediaType": "podcast",
-    "title": "Michael Sandel on the Tyranny of Merit",
-    "url": "https://www.econtalk.org/",
-    "blurb": "What shouldn't money buy? Sandel and Roberts disagree productively about markets, merit, and manners in a conversation that models civil argument.",
-    "source": "EconTalk"
-  },
-  {
-    "mediaType": "article",
-    "title": "The Case for Reparations",
-    "url": "https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/",
-    "blurb": "History, housing policy, and one Chicago family's story braided into the most consequential essay of its decade. Read it for the argument — and stay for the craft.",
-    "source": "The Atlantic"
-  },
-  {
-    "mediaType": "movie",
-    "title": "The Man Who Shot Liberty Valance",
-    "url": "https://en.wikipedia.org/wiki/The_Man_Who_Shot_Liberty_Valance",
-    "blurb": "Ford's elegy for the West asks what a civilization owes the legends it prints. \"When the legend becomes fact, print the legend\" — cinema's coldest sentence.",
-    "source": "John Ford"
+    "title": "Basic Economics",
+    "url": "https://en.wikipedia.org/wiki/Basic_Economics",
+    "blurb": "Sowell teaches prices, incentives, and trade-offs with zero equations and endless common sense.",
+    "source": "Thomas Sowell"
   },
   {
     "mediaType": "book",
-    "title": "The Road to Serfdom",
-    "url": "https://en.wikipedia.org/wiki/The_Road_to_Serfdom",
-    "blurb": "Written in the middle of a world war, Hayek's warning about planning, expertise, and liberty still infuriates and illuminates in equal measure.",
-    "source": "F. A. Hayek"
-  },
-  {
-    "mediaType": "podcast",
-    "title": "The Fall of Rome",
-    "url": "https://therestishistory.com/",
-    "blurb": "Two historians thrash out barbarians, taxes, and bronze coinage with infectious delight, and make the fifth century feel like breaking news.",
-    "source": "The Rest Is History"
+    "title": "The Fatal Conceit",
+    "url": "https://en.wikipedia.org/wiki/The_Fatal_Conceit",
+    "blurb": "Hayek's final warning: the hubris of designing society against the knowledge embedded in tradition and markets.",
+    "source": "F.A. Hayek"
   }
 ]
