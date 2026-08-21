@@ -112,6 +112,54 @@ async function hydrateCover(tile, rec) {
   if (frame.isConnected) frame.replaceChildren(img);
 }
 
+function boardMetrics() {
+  const rootStyle = getComputedStyle(document.documentElement);
+  const gapX = parseFloat(rootStyle.getPropertyValue("--gap-x")) || 0;
+  const gapY = parseFloat(rootStyle.getPropertyValue("--gap-y")) || 0;
+  const cardW = parseFloat(rootStyle.getPropertyValue("--card-w")) || 347;
+  const parent = grid.parentElement;
+  const parentStyle = getComputedStyle(parent);
+  const avail =
+    parent.clientWidth - parseFloat(parentStyle.paddingLeft) - parseFloat(parentStyle.paddingRight);
+  let cols = Math.floor((avail + gapX) / (cardW + gapX));
+  if (cols < 1) cols = 1;
+  return { cardW: Math.min(cardW, avail), gapX, gapY, cols };
+}
+
+function layoutBoard() {
+  const tiles = [...grid.children].filter((node) => node.classList && node.classList.contains("tile"));
+  if (!tiles.length) {
+    grid.style.width = "";
+    grid.style.height = "";
+    return;
+  }
+  const { cardW, gapX, gapY, cols } = boardMetrics();
+  tiles.forEach((tile) => {
+    tile.style.width = `${cardW}px`;
+  });
+  const columnHeights = new Array(cols).fill(0);
+  tiles.forEach((tile) => {
+    let column = 0;
+    for (let i = 1; i < cols; i += 1) {
+      if (columnHeights[i] < columnHeights[column]) column = i;
+    }
+    const x = column * (cardW + gapX);
+    const y = columnHeights[column];
+    tile.style.left = `${x}px`;
+    tile.style.top = `${y}px`;
+    columnHeights[column] = y + tile.offsetHeight + gapY;
+  });
+  grid.style.width = `${cols * cardW + (cols - 1) * gapX}px`;
+  grid.style.height = `${Math.max(...columnHeights) - gapY}px`;
+}
+
+let resizeTimer = null;
+
+function scheduleLayout() {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(layoutBoard, 120);
+}
+
 function render({ animate = true } = {}) {
   const build = () => {
     const list =
@@ -131,6 +179,7 @@ function render({ animate = true } = {}) {
       grid.append(tile);
       if (visual) hydrateCover(tile, rec);
     });
+    layoutBoard();
     grid.classList.remove("is-fading");
   };
 
@@ -190,6 +239,11 @@ function initChrome() {
 }
 
 initChrome();
+window.addEventListener("resize", scheduleLayout);
+if (document.fonts) {
+  document.fonts.ready.then(layoutBoard);
+  document.fonts.addEventListener("loadingdone", layoutBoard);
+}
 loadRecommendations()
   .then((data) => {
     recommendations = data;
