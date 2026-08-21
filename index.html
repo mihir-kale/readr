@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading &amp; Watching — The John Locke Foundation</title>
+  <meta name="description" content="Books, films, articles, and podcasts recommended by the staff of the John Locke Foundation.">
+  <meta name="tmdb-api-key" content="475a2ebafc31a860c0a98e7280853eb0">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%23f6f1e7'/><rect x='5' y='5' width='54' height='54' fill='none' stroke='%23211d16'/><text x='32' y='43' font-family='Georgia,serif' font-size='28' text-anchor='middle' fill='%23211d16'>JL</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="container">
+      <p class="overline">The John Locke Foundation</p>
+      <h1 class="masthead-title">Reading <span class="amp">&amp;</span> Watching</h1>
+      <p class="standfirst">Books, films, essays, and episodes worth your time — chosen by the staff.</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="dateline">
+      <span>Vol. I &middot; No. 1</span>
+      <span id="dateline-date"></span>
+    </div>
+
+    <nav class="filters" id="filters" aria-label="Filter recommendations by media type"></nav>
+
+    <main id="grid" class="board"></main>
+
+    <noscript>
+      <p class="notice">This page needs JavaScript to load its recommendations. Please enable JavaScript and reload.</p>
+    </noscript>
+  </div>
+
+  <footer class="colophon">
+    <div class="container">
+      <p class="colophon-submit">Have a recommendation? Submit it through the staff Microsoft Form.</p>
+      <p class="fine">Set in Newsreader &middot; Book covers via Google Books &amp; Open Library &middot; Film posters via TMDB &middot; Hosted on GitHub Pages</p>
+      <p class="fine">&copy; <span id="colophon-year"></span> The John Locke Foundation</p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "readr",
+  "version": "0.1.0",
+  "private": true,
+  "description": "John Locke Foundation staff recommendations — static site POC for GitHub Pages",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "import": "node scripts/import-recommendations.js"
+  }
+}

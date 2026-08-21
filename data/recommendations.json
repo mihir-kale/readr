@@ -1,0 +1,93 @@
+[
+  {
+    "mediaType": "book",
+    "title": "The Power Broker",
+    "url": "https://en.wikipedia.org/wiki/The_Power_Broker",
+    "blurb": "Caro's 1,300-page life of Robert Moses is the definitive anatomy of power: how it is accumulated, exercised, and hidden in plain sight. Long, but never long enough.",
+    "source": "Robert A. Caro"
+  },
+  {
+    "mediaType": "article",
+    "title": "I, Pencil",
+    "url": "https://fee.org/resources/i-pencil/",
+    "blurb": "A pencil explains its own creation and dismantles the idea that anyone is in charge. The shortest, sharpest case for spontaneous order ever written.",
+    "source": "Foundation for Economic Education"
+  },
+  {
+    "mediaType": "movie",
+    "title": "12 Angry Men",
+    "url": "https://en.wikipedia.org/wiki/12_Angry_Men",
+    "blurb": "Twelve strangers, one sweltering room, and a single dissenter who refuses to let certainty win. Still the best film ever made about the discipline of doubt.",
+    "source": "Sidney Lumet"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "Aspiration and the Examined Life",
+    "url": "https://www.conversationswithtyler.com/",
+    "blurb": "Agnes Callard argues that the biggest decisions in life cannot be justified in advance — aspiration means becoming the person who can see the reasons only afterward. Bracing and oddly comforting.",
+    "source": "Conversations with Tyler"
+  },
+  {
+    "mediaType": "book",
+    "title": "Democracy in America",
+    "url": "https://en.wikipedia.org/wiki/Democracy_in_America",
+    "blurb": "Sent to study American prisons, Tocqueville instead diagnosed a young democracy with uncanny precision. Nearly two centuries later, almost every page feels like this morning's news.",
+    "source": "Alexis de Tocqueville"
+  },
+  {
+    "mediaType": "article",
+    "title": "Politics and the English Language",
+    "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/essays-and-other-works/politics-and-the-english-language/",
+    "blurb": "Orwell shows how mushy language and mushy thinking prop each other up, then hands you the tools to resist both. The rare essay on style you can read for pleasure.",
+    "source": "Horizon"
+  },
+  {
+    "mediaType": "movie",
+    "title": "Spotlight",
+    "url": "https://en.wikipedia.org/wiki/Spotlight_(film)",
+    "blurb": "A newspaper procedural with the pulse of a thriller — and a quiet lesson that institutions change only when someone keeps asking uncomfortable questions.",
+    "source": "Tom McCarthy"
+  },
+  {
+    "mediaType": "book",
+    "title": "Thinking, Fast and Slow",
+    "url": "https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow",
+    "blurb": "A career's worth of findings about judgment, bias, and self-deception in one humane, humbling book. You will catch yourself in the act by chapter three.",
+    "source": "Daniel Kahneman"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "Michael Sandel on the Tyranny of Merit",
+    "url": "https://www.econtalk.org/",
+    "blurb": "What shouldn't money buy? Sandel and Roberts disagree productively about markets, merit, and manners in a conversation that models civil argument.",
+    "source": "EconTalk"
+  },
+  {
+    "mediaType": "article",
+    "title": "The Case for Reparations",
+    "url": "https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/",
+    "blurb": "History, housing policy, and one Chicago family's story braided into the most consequential essay of its decade. Read it for the argument — and stay for the craft.",
+    "source": "The Atlantic"
+  },
+  {
+    "mediaType": "movie",
+    "title": "The Man Who Shot Liberty Valance",
+    "url": "https://en.wikipedia.org/wiki/The_Man_Who_Shot_Liberty_Valance",
+    "blurb": "Ford's elegy for the West asks what a civilization owes the legends it prints. \"When the legend becomes fact, print the legend\" — cinema's coldest sentence.",
+    "source": "John Ford"
+  },
+  {
+    "mediaType": "book",
+    "title": "The Road to Serfdom",
+    "url": "https://en.wikipedia.org/wiki/The_Road_to_Serfdom",
+    "blurb": "Written in the middle of a world war, Hayek's warning about planning, expertise, and liberty still infuriates and illuminates in equal measure.",
+    "source": "F. A. Hayek"
+  },
+  {
+    "mediaType": "podcast",
+    "title": "The Fall of Rome",
+    "url": "https://therestishistory.com/",
+    "blurb": "Two historians thrash out barbarians, taxes, and bronze coinage with infectious delight, and make the fifth century feel like breaking news.",
+    "source": "The Rest Is History"
+  }
+]
