@@ -8,6 +8,10 @@
   --accent:#8a2b1d;
   --serif:"Newsreader",Georgia,"Times New Roman",serif;
   --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+  --card-w:440px;
+  --card-h:200px;
+  --poster-w:122px;
+  --poster-h:183px;
 }
 
 *,*::before,*::after{box-sizing:border-box}
@@ -101,13 +105,19 @@ a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-o
 
 .board{
   display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
-  gap:2.6rem 1.8rem;
-  align-items:start;
+  grid-template-columns:repeat(auto-fill,var(--card-w));
+  justify-content:center;
+  gap:2.4rem 1.8rem;
 }
-.board>.tile:nth-child(3n){grid-column:span 2}
 .board.is-fading{opacity:0;transition:opacity .45s ease}
-.tile{min-width:0;animation:tile-in .55s cubic-bezier(.2,.6,.2,1) both;animation-delay:calc(var(--stagger,0)*45ms)}
+.tile{
+  margin:0;
+  width:var(--card-w);
+  height:var(--card-h);
+  min-width:0;
+  animation:tile-in .55s cubic-bezier(.2,.6,.2,1) both;
+  animation-delay:calc(var(--stagger,0)*45ms);
+}
 @keyframes tile-in{
   from{opacity:0;transform:translateY(12px)}
   to{opacity:1;transform:none}
@@ -115,20 +125,14 @@ a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-o
 
 .tile--visual{
   display:grid;
-  grid-template-columns:112px minmax(0,1fr);
+  grid-template-columns:var(--poster-w) minmax(0,1fr);
   column-gap:14px;
   align-items:start;
 }
-.tile--visual .frame{width:112px;height:168px}
-.tile--visual figcaption{
-  max-height:168px;
-  overflow:hidden;
-  padding-top:.1rem;
-  -webkit-mask-image:linear-gradient(180deg,#000 78%,transparent 98%);
-  mask-image:linear-gradient(180deg,#000 78%,transparent 98%);
-}
+.tile--visual .frame{width:var(--poster-w);height:var(--poster-h)}
+.tile--visual figcaption{padding-top:.1rem}
 
-.tile--text .lead,.tile--text .blurb{max-width:46ch}
+.tile--text{padding:.85rem 1.1rem .9rem}
 
 .frame{
   position:relative;
@@ -192,17 +196,13 @@ a.frame:hover img{transform:scale(1.03)}
 .colophon a{text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px}
 .colophon a:hover{text-decoration-color:var(--accent)}
 
-@media (max-width:960px){
-  .board{grid-template-columns:repeat(2,minmax(0,1fr))}
-}
-
 @media (max-width:640px){
   .filters{gap:.3rem 1.4rem;margin-bottom:2.2rem}
 }
 
 @media (max-width:700px){
-  .board{grid-template-columns:minmax(0,1fr);gap:1.9rem}
-  .board>.tile{width:100%;max-width:400px;margin:0 auto}
+  .board{grid-template-columns:minmax(0,400px);gap:1.9rem}
+  .board>.tile{width:100%;height:auto}
 }
 
 @media (prefers-reduced-motion:reduce){
